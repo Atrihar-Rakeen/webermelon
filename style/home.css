@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.home{
+    padding: 50px 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000;
+}
+
+.badge{
+    /* border: 2px solid red; */
+    background-color: #92F4AE;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.headline{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    /* border: 2px solid red; */
+    padding: 50px;
+}
+
+.subheading{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.home .button{
+    padding: 50px;
+}
+
+.home .button a{
+    text-decoration: none;
+    border: 2px solid black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 28px;
+    padding: 14px 28px;
+}
+
+.portfolio{
+    background-color: #000;
+    color: #fff;
+    margin-right: 3em;
+}
+
+.project{
+    color: #000;
+}
+
+.project i{
+    color: #000;
+    padding-top: 14px;
+}
+
+.images img{
+    height: 320px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.summary div{
+    display: inline-block;
+    padding: 8rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.counter{    
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.counter i{
+    color: #00C663;
+}
+
+
+
+.quote{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    font-style: italic;
+}
+
+.quote p{
+    color: #737373;
+}
+
+.quote span{
+    color: #000;
+    font-weight: 600;
+}
+
+.author img{
+    height: 56px;
+    width: 50px;
+    margin: 38px 0;
+}
+
+.author h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.author p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.company img{
+    height: 48px;
+    width: 186px;
+    margin: 6rem 1rem;
+}

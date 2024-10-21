@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.footer{
+    /* height: 708px; */
+    /* width: 1440px; */
+    background-color: #0C0A25;
+    padding-left: 12rem;
+    padding-top: 8rem;
+}
+
+.footer p{
+    color: #f1e7de;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+    background: transparent;
+}
+
+.footer h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 82px;
+    background: transparent;
+}
+
+.footer h4 span{
+    color: #8E9BA3;
+    background: transparent;
+}
+
+.footer .content{
+    display: flex;
+    justify-content: flex-start;
+    background: transparent;
+    padding-top: 2.5rem;
+}
+
+.footer .content .address{
+    height: 335px;
+    width: 241px;
+    /* border: 2px solid red; */
+    background: transparent;
+    margin-right: 5rem;
+}
+
+
+.footer .content .address ul{
+    background: transparent;
+}
+
+.footer .content .address ul li{
+    list-style: none;
+    background: transparent;
+}
+
+.footer .content .address ul li h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    background: transparent;
+    padding-bottom: 1rem;
+}
+
+.footer .content .address ul li p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #BCBCBC;
+    background: transparent;
+    padding-bottom: 1rem;
+}
+
+.footer .content .experties p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.footer .content .experties{
+    background: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    height: 335px;
+    width: 241px;
+}
+
+.footer .content .experties ul{
+    background: transparent;
+}
+
+.footer .content .experties ul li{
+    list-style: none;
+    background: transparent;
+    color: #BCBCBC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.footer .end{
+    padding: 7rem 0;
+    color: #8E9BA3;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.footer .end img{
+    background: transparent;
+    color: #8E9BA3;
+    width: 11px;
+}
